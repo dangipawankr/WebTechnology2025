@@ -1,0 +1,16 @@
+get method attached in url 
+post sent automatically 
+
+get method has certain limitation
+get method length is limited
+(2048 characters)
+
+get method less secure than post method while sending data in form
+
+critical sensitive method while sending we should use post  method instead of get method
+
+action attribute
+we keep script link inside action attribute which provide function to the html button
+
+
+
