@@ -1,0 +1,12 @@
+border type
+solid
+dashed
+dotted 
+
+
+difference between padding and margin
+
+both gives spacing
+within element to give space, use padding
+
+to give space between two elements use margin
