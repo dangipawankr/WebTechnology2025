@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    border: 2px solid #444444;
+    padding: 32px;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 20px;           
+}
+h2 {
+    font-size: 48px;
+    border-bottom: 2px solid #080707;
+    padding: 20px;
+    background-color: beige;
+}
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.nav{
+    position: sticky;
+    top: 50px;
+}
+.nav a {
+    background-color: beige;
+    padding: 10px 16px;
+    border-radius: 4px;
+    color: #080707;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav a:hover,
+.nav a:focus {
+    background-color: #550000;
+    color: #ffffff;
+}

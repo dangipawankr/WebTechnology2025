@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Form</title>
+
+		<style type="text/css">
+
+			/*-- Universal Selector--*/
+
+			* {
+				color: #555555;
+				line-height: 1.5;
+			}
+
+			/*-- Element Type Selector--*/
+
+			h1 {
+				font-size: 64px;
+			}
+
+			/*-- ID Selector--*/
+
+			#wrapper {
+
+				background-color: lightgreen;
+				padding: 10px 20px;
+
+			}
+
+			/*-- Class Selector--*/
+
+			.wrapper {
+
+				background-color: yellow;
+				padding: 10px 20px;
+
+			}
+
+			/*-- Decendant  Selector--*/
+
+			.wrapper h1 {
+				font-size: 38px;
+				color: #ffffff;
+			}
+
+			/*-- Child Combinator / Selector--*/
+
+			.wrapper > h1 {
+				font-size: 24px;
+			}
+
+			/*-- Adjacent Sibling Combinator--*/
+
+			p + p {
+				font-size: 24px;
+				font-style: italic;
+			}
+
+			#wrapper h1 ~ p {
+				font-size: 64px;
+				color: red;
+			}
+
+			ul .list>li {
+				font-size: 24px;
+				color: #b3b3d1;
+			}	
+
+
+
+
+		</style>
+
+	</head>
+
+	
+
+	<body>
+
+		<p>This is paragraph second text</p>
+		
+		<h1>This is heading</h1>
+
+		<p>This is paragraph text</p>
+
+		
+
+		<p>This is paragraph second text</p>
+
+		<div id="wrapper">
+			<p>Wrapper Paragraph</p>
+			<h1>Warpper Heading</h1>
+			<p>Wrapper Paragraph1</p>
+
+			<p>Wrapper Paragraph2</p>
+		</div>
+
+		<div class="wrapper">
+
+			<h1>Warpper Heading</h1>
+			<p>Wrapper Paragraph</p>
+
+		</div>
+
+
+		<div class="wrapper-2">
+
+			<ul>
+				<li>Home</li>
+				<li>
+					About us
+					
+					<ul>
+						<li>History</li>
+						<li>Team</li>
+					</ul>
+				</li>
+				<li>Contact us</li>
+			</ul>
+
+		</div>
+
+
+
+
+	</body>
+</html>
